@@ -24,6 +24,20 @@
   color: white;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column; /* Расположение элементов сверху вниз */
+  justify-content: center; /* Вертикальное выравнивание */
+  align-items: center; /* Горизонтальное выравнивание */
+  height: 100vh; /* Высота контейнера занимает весь экран */
+  text-align: center;
+}
+
+canvas {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
 .App-link {
   color: #61dafb;
 }
